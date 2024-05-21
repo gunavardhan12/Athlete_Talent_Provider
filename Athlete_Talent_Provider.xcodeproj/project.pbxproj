@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		354A986A2BFC7EA4006F93DC /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354A98692BFC7EA4006F93DC /* HomeVC.swift */; };
 		813805D92BFC7AE400F0CAB8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813805D82BFC7AE400F0CAB8 /* LoginVC.swift */; };
 		81403C072BFC77410080C81F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81403C062BFC77410080C81F /* AppDelegate.swift */; };
 		81403C092BFC77410080C81F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81403C082BFC77410080C81F /* SceneDelegate.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		354A98692BFC7EA4006F93DC /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		813805D82BFC7AE400F0CAB8 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		81403C032BFC77410080C81F /* Athlete_Talent_Provider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Athlete_Talent_Provider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81403C062BFC77410080C81F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				81403C112BFC77420080C81F /* LaunchScreen.storyboard */,
 				81403C142BFC77420080C81F /* Info.plist */,
 				813805D82BFC7AE400F0CAB8 /* LoginVC.swift */,
+				354A98692BFC7EA4006F93DC /* HomeVC.swift */,
 			);
 			path = Athlete_Talent_Provider;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81403C0B2BFC77410080C81F /* ViewController.swift in Sources */,
+				354A986A2BFC7EA4006F93DC /* HomeVC.swift in Sources */,
 				81403C072BFC77410080C81F /* AppDelegate.swift in Sources */,
 				813805D92BFC7AE400F0CAB8 /* LoginVC.swift in Sources */,
 				81403C092BFC77410080C81F /* SceneDelegate.swift in Sources */,
