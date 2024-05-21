@@ -1,5 +1,5 @@
 //
-//  HomeVC.swift
+//  jobsVC.swift
 //  Athlete_Talent_Provider
 //
 //  Created by RaJ TiWaRi on 21/05/24.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomeVC: UIViewController {
+class jobsVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
