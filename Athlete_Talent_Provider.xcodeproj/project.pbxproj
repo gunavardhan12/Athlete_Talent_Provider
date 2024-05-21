@@ -83,7 +83,6 @@
 		813805DA2BFC7FBD00F0CAB8 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				81403C142BFC77420080C81F /* Info.plist */,
 				81403C062BFC77410080C81F /* AppDelegate.swift */,
 				81403C082BFC77410080C81F /* SceneDelegate.swift */,
 			);
@@ -136,6 +135,7 @@
 				813805DB2BFC7FCF00F0CAB8 /* VC */,
 				813805DC2BFC800200F0CAB8 /* Storyboard */,
 				81403C0F2BFC77420080C81F /* Assets.xcassets */,
+				81403C142BFC77420080C81F /* Info.plist */,
 			);
 			path = Athlete_Talent_Provider;
 			sourceTree = "<group>";
