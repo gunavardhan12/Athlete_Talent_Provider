@@ -80,6 +80,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		813805DA2BFC7FBD00F0CAB8 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				81403C142BFC77420080C81F /* Info.plist */,
+				81403C062BFC77410080C81F /* AppDelegate.swift */,
+				81403C082BFC77410080C81F /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		813805DB2BFC7FCF00F0CAB8 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				81403C0A2BFC77410080C81F /* ViewController.swift */,
+				813805D82BFC7AE400F0CAB8 /* LoginVC.swift */,
+				354A98692BFC7EA4006F93DC /* HomeVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		813805DC2BFC800200F0CAB8 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				81403C112BFC77420080C81F /* LaunchScreen.storyboard */,
+				81403C0C2BFC77410080C81F /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		81403BFA2BFC77410080C81F = {
 			isa = PBXGroup;
 			children = (
@@ -103,15 +132,10 @@
 		81403C052BFC77410080C81F /* Athlete_Talent_Provider */ = {
 			isa = PBXGroup;
 			children = (
-				81403C062BFC77410080C81F /* AppDelegate.swift */,
-				81403C082BFC77410080C81F /* SceneDelegate.swift */,
-				81403C0A2BFC77410080C81F /* ViewController.swift */,
-				81403C0C2BFC77410080C81F /* Main.storyboard */,
+				813805DA2BFC7FBD00F0CAB8 /* Application */,
+				813805DB2BFC7FCF00F0CAB8 /* VC */,
+				813805DC2BFC800200F0CAB8 /* Storyboard */,
 				81403C0F2BFC77420080C81F /* Assets.xcassets */,
-				81403C112BFC77420080C81F /* LaunchScreen.storyboard */,
-				81403C142BFC77420080C81F /* Info.plist */,
-				813805D82BFC7AE400F0CAB8 /* LoginVC.swift */,
-				354A98692BFC7EA4006F93DC /* HomeVC.swift */,
 			);
 			path = Athlete_Talent_Provider;
 			sourceTree = "<group>";
