@@ -86,12 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+
 		81002E7C2BFE12BB0035DA4B /* LoginVC */ = {
 			isa = PBXGroup;
 			children = (
 				813805D82BFC7AE400F0CAB8 /* LoginVC.swift */,
 			);
 			path = LoginVC;
+		3529EAFB2BFE12E7008D11D5 /* App Viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				354A986B2BFC8328006F93DC /* mainVC.swift */,
+				35CDB4232BFCA0A300BC883B /* jobsVC.swift */,
+				35CDB4212BFCA03F00BC883B /* discoverVC.swift */,
+				35CDB4252BFCA0B900BC883B /* profileVC.swift */,
+				35CDB4272BFCA32200BC883B /* homeVC.swift */,
+			);
+			path = "App Viewcontrollers";
 			sourceTree = "<group>";
 		};
 		813805DA2BFC7FBD00F0CAB8 /* Application */ = {
@@ -106,12 +117,10 @@
 		813805DB2BFC7FCF00F0CAB8 /* VC */ = {
 			isa = PBXGroup;
 			children = (
+
 				81002E7C2BFE12BB0035DA4B /* LoginVC */,
-				354A986B2BFC8328006F93DC /* mainVC.swift */,
-				35CDB4212BFCA03F00BC883B /* discoverVC.swift */,
-				35CDB4232BFCA0A300BC883B /* jobsVC.swift */,
-				35CDB4252BFCA0B900BC883B /* profileVC.swift */,
-				35CDB4272BFCA32200BC883B /* homeVC.swift */,
+				3529EAFB2BFE12E7008D11D5 /* App Viewcontrollers */,
+
 			);
 			path = VC;
 			sourceTree = "<group>";
