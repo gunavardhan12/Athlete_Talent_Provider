@@ -15,7 +15,6 @@
 		813805D92BFC7AE400F0CAB8 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813805D82BFC7AE400F0CAB8 /* LoginVC.swift */; };
 		81403C072BFC77410080C81F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81403C062BFC77410080C81F /* AppDelegate.swift */; };
 		81403C092BFC77410080C81F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81403C082BFC77410080C81F /* SceneDelegate.swift */; };
-		81403C0B2BFC77410080C81F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81403C0A2BFC77410080C81F /* ViewController.swift */; };
 		81403C0E2BFC77410080C81F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 81403C0D2BFC77410080C81F /* Base */; };
 		81403C102BFC77420080C81F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81403C0F2BFC77420080C81F /* Assets.xcassets */; };
 		81403C132BFC77420080C81F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 81403C122BFC77420080C81F /* Base */; };
@@ -51,7 +50,6 @@
 		81403C032BFC77410080C81F /* Athlete_Talent_Provider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Athlete_Talent_Provider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81403C062BFC77410080C81F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81403C082BFC77410080C81F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		81403C0A2BFC77410080C81F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		81403C0D2BFC77410080C81F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81403C0F2BFC77420080C81F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81403C122BFC77420080C81F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -88,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81002E7C2BFE12BB0035DA4B /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				813805D82BFC7AE400F0CAB8 /* LoginVC.swift */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
 		813805DA2BFC7FBD00F0CAB8 /* Application */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,8 +106,7 @@
 		813805DB2BFC7FCF00F0CAB8 /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				81403C0A2BFC77410080C81F /* ViewController.swift */,
-				813805D82BFC7AE400F0CAB8 /* LoginVC.swift */,
+				81002E7C2BFE12BB0035DA4B /* LoginVC */,
 				354A986B2BFC8328006F93DC /* mainVC.swift */,
 				35CDB4212BFCA03F00BC883B /* discoverVC.swift */,
 				35CDB4232BFCA0A300BC883B /* jobsVC.swift */,
@@ -143,7 +148,6 @@
 		81403C052BFC77410080C81F /* Athlete_Talent_Provider */ = {
 			isa = PBXGroup;
 			children = (
-				81403C142BFC77420080C81F /* Info.plist */,
 				813805DA2BFC7FBD00F0CAB8 /* Application */,
 				813805DB2BFC7FCF00F0CAB8 /* VC */,
 				813805DC2BFC800200F0CAB8 /* Storyboard */,
@@ -302,7 +306,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				35CDB4222BFCA03F00BC883B /* discoverVC.swift in Sources */,
-				81403C0B2BFC77410080C81F /* ViewController.swift in Sources */,
 				81403C072BFC77410080C81F /* AppDelegate.swift in Sources */,
 				813805D92BFC7AE400F0CAB8 /* LoginVC.swift in Sources */,
 				35CDB4262BFCA0B900BC883B /* profileVC.swift in Sources */,
