@@ -94,6 +94,18 @@
 			path = LoginVC;
 			sourceTree = "<group>";
 		};
+		81002E7E2BFE28C70035DA4B /* App Viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				354A986B2BFC8328006F93DC /* mainVC.swift */,
+				35CDB4212BFCA03F00BC883B /* discoverVC.swift */,
+				35CDB4232BFCA0A300BC883B /* jobsVC.swift */,
+				35CDB4252BFCA0B900BC883B /* profileVC.swift */,
+				35CDB4272BFCA32200BC883B /* homeVC.swift */,
+			);
+			path = "App Viewcontrollers";
+			sourceTree = "<group>";
+		};
 		813805DA2BFC7FBD00F0CAB8 /* Application */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,12 +118,8 @@
 		813805DB2BFC7FCF00F0CAB8 /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				81002E7E2BFE28C70035DA4B /* App Viewcontrollers */,
 				81002E7C2BFE12BB0035DA4B /* LoginVC */,
-				354A986B2BFC8328006F93DC /* mainVC.swift */,
-				35CDB4212BFCA03F00BC883B /* discoverVC.swift */,
-				35CDB4232BFCA0A300BC883B /* jobsVC.swift */,
-				35CDB4252BFCA0B900BC883B /* profileVC.swift */,
-				35CDB4272BFCA32200BC883B /* homeVC.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
