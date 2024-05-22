@@ -31,6 +31,13 @@
 			remoteGlobalIDString = 81403C022BFC77410080C81F;
 			remoteInfo = Athlete_Talent_Provider;
 		};
+		81403C242BFC77420080C81F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81403BFB2BFC77410080C81F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81403C022BFC77410080C81F;
+			remoteInfo = Athlete_Talent_Provider;
+		};
 		
 /* End PBXContainerItemProxy section */
 
@@ -113,7 +120,6 @@
 			isa = PBXGroup;
 			children = (
 
-				81002E7C2BFE12BB0035DA4B /* LoginVC */,
 				354A986B2BFC8328006F93DC /* mainVC.swift */,
 				35CDB4212BFCA03F00BC883B /* discoverVC.swift */,
 				35CDB4232BFCA0A300BC883B /* jobsVC.swift */,
