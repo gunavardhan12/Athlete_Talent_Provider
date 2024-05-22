@@ -1,13 +1,13 @@
 //
-//  jobsVC.swift
+//  LoginVC.swift
 //  Athlete_Talent_Provider
 //
-//  Created by RaJ TiWaRi on 21/05/24.
+//  Created by Wegile-Gunavardhan on 21/05/24.
 //
 
 import UIKit
 
-class jobsVC: UIViewController {
+class LoginVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
