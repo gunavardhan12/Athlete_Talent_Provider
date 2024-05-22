@@ -9,21 +9,23 @@ import UIKit
 
 class jobsVC: UIViewController {
 
+    @IBOutlet weak var allJobsView: UIView!
+    @IBOutlet weak var appliedJobsView: UIView!
+    @IBOutlet weak var mathingJobsView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        cornerRadius(allJobsView)
+        cornerRadius(appliedJobsView)
+        cornerRadius(mathingJobsView)
+
 
         // Do any additional setup after loading the view.
     }
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func cornerRadius(_ name: UIView){
+        name.layer.cornerRadius = 15
     }
-    */
+
 
 }
