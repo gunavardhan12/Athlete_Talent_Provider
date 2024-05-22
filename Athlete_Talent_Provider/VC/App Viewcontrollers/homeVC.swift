@@ -8,6 +8,7 @@
 import UIKit
 
 class homeVC: UIViewController {
+
     @IBOutlet weak var inboxUIView: UIView!
     @IBOutlet weak var mathcingJobsView: UIView!
     @IBOutlet weak var appliedJobsView: UIView!
@@ -31,13 +32,16 @@ class homeVC: UIViewController {
         imageRoundCorner(matchImage)
         
 
+
         // Do any additional setup after loading the view.
     }
     
+
     func cornerRadius(_ name: UIView){
         name.layer.cornerRadius = 15
     }
     func imageRoundCorner(_ name: UIImageView){
         name.layer.cornerRadius = name.frame.width/2
     }
+
 }
